@@ -260,7 +260,9 @@ body
 }
 .tablemnl
 {
-    margin: 0 auto;
+    display: flex;
+    aligh-items: center;
+    justify-content: center;
 }
 /*----Workflow-----*/
 *
