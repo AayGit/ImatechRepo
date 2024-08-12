@@ -186,7 +186,9 @@ body
 }
 .nlteam-list
 {
-    text-align: center;  
+    width: 200px;
+    margin: auto;
+    text-align: left;   
 
 }
 
@@ -251,9 +253,7 @@ body
 }
 .mnlteam-list
 {
-    width: 200px;
-    margin: auto;
-    text-align: left;  
+    text-align: center;  
 
 }
 .tablemnl
