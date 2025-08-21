@@ -311,16 +311,16 @@
 								
 								<div id="guidedeldate" class="overall-text-list">
 									GUIDE: When to change the Purchase order delivery date according to the OC Del.date.<br>
-									If OC Del.date in LATER THAN Purchase order Del.Date BUT NOT LATER THAN Sales ETD.<br><br>
+									If OC Del.date in LATER THAN Purchase order Del.Date BUT NOT LATER THAN <span style="color:RED;">Sales Del.date.</span><br><br>
 									<span style="color:RED;">Change the PO DD with the OC DD</span><br><br>
 										OC DD = <span style="color:RED;">13</span>-05-2024<br>
 										PO DD = <span style="color:RED;">03</span>-05-2024<br>
-										Sales ETD = <span style="color:RED;">15</span>-05-2024<br><br>
+										Sales Del.date. = <span style="color:RED;">15</span>-05-2024<br><br>
 																		
 									<span style="color:RED;">DO NOT CHANGE</span><br><br>
 										OC DD = <span style="color:RED;">20</span>-05-2024<br>
 										PO DD = <span style="color:RED;">28</span>-05-2024<br>
-										Sales ETD = <span style="color:RED;">18</span>-06-2024<br><br>
+										Sales Del.date.= <span style="color:RED;">18</span>-06-2024<br><br>
 
 									<ol>
 										<li>Go to Received Order Confirmation folder under Purchasing mailbox</li><br>
@@ -547,8 +547,8 @@
 						<li><h2>Week Number as Delivery Date/Time</h2></li></ul><br>
 							If vendor Delivery date provided is in <span style="color:RED;">Week Number</span> form, use the date that falls on the (<span style="color:RED;">Friday</span>) of that week. <br>
 							Update PO Del.date in 7T as necessary. See <a href="ROCRS.html#guidedeldate"><u><i>Guide </i></u></a>in changing delivery date in 7T for reference.<br>
-							Send RFEDS if Sales ETD falls on that week.<br>
-							For AFHALEN (PICK-UP) Sales ETD falls on the last working week (Friday) No need to send RFEDS<br><br>
+							Send RFEDS if Sales Del.date. falls on that week.<br>
+							For AFHALEN (PICK-UP) Sales Del.date. falls on the last working week (Friday) No need to send RFEDS<br><br>
 						
 						<li id="ROCtotaldiff"><h2>Total Amount Accepted Difference</h2></li></ul><br>
 							When processing an order conformation and total amount does not match (please make sure qty does match), there is <span style="color:RED;">NO</span> need to inform NL when the difference is small. <br><br>
@@ -557,12 +557,12 @@
 							When total amount of PO is <span style="color:RED;">under 100 Euro</span>, then accepted difference is until <span style="color:RED;">2,50 Euro</span><br>
 							When total amount of PO is <span style="color:RED;">above 100 Euro</span>, then accepted difference is until <span style="color:RED;">5 Euro</span>. <br><br>
 						 <li id="ROCrfedsguide"><h2>Guidelines in sending RFEDS (Applicable to ROC / POCC / 079 Process)</h2></li><br>
-									Date to be inserted in the rfed email is the ETD which can be found under Sales Order > Order header tab > Order data subtab.<br>
+									Date to be inserted in the rfed email is the Sales Del.date. which can be found under Sales Order > Order header tab > Order data subtab.<br>
 										<ol class="overall-text-list">
 											<ul><li>If <span style="color:RED;">afhalen/pick-up</span> (<I>Will be collected </I>is checked), message will be:</li></ul><br>
-												-- "<span style="color:RED;">on or before</span> [ETD]<br><br>
+												-- "<span style="color:RED;">on or before</span> [Sales Del.date.]<br><br>
 											<ul><li>If <span style="color:RED;">NOT</span> afhalen", message will be:</li></ul><br>
-												-- "<span style="color:RED;">before</span> [ETD]"<br><br>
+												-- "<span style="color:RED;">before</span> [Sales Del.date.]"<br><br>
 										</ol>
 									With regards to sending <span style="color:RED;">RFED for PAST-DATED</span> delivery time, it is very unacceptable to request for delivery before a date in the past.<br>
 									Should we receive a confirmation for an order with our delivery date to the customer is already past-dated, please send below message:<br><br>
@@ -654,7 +654,7 @@
 							For above mentioned vendors, Just drag the OC email IN DA.<br>
 							<span style="color:RED;">NOTE</span>: Don't forget to update <span style="color:RED;">Supplier reference</span> and <span style="color:RED;">check confirmation box</span><br>
 							No further checking needed, however <span style="color:RED;">IMPORTANT REMINDER</span>: if the supplier confirms a date which is later than our delivery date in <span style="color:RED;">PURCHASE ORDER WINDOW</span>, <br>
-							but not later than <span style="color:RED;">SALES ORDER ETD</span>, the team may change the delivery date of the purchase order in 7T.<br><br>
+							but not later than <span style="color:RED;">Sales Del.date.</span>, the team may change the delivery date of the purchase order in 7T.<br><br>
 
 							Purchase Order Window:<br><br>
 							<img src="Images/purchaseorderdeldate.png"><br>
@@ -745,7 +745,7 @@
 				<div class="overall-text-list">
 				<ol>
 					<li><h2>Orderbevestiging</h2></li> 
-						- This should be processed just <span style="color:RED;">like ROC minus the RFEDS to vendor</span>, when delivery time in OC does not meet our ETD then a <span style="color:RED;">notification email is to be sent to Imatech Purchasing</span><br><br>
+						- This should be processed just <span style="color:RED;">like ROC minus the RFEDS to vendor</span>, when delivery time in OC does not meet our Sales Del.date then a <span style="color:RED;">notification email is to be sent to Imatech Purchasing</span><br><br>
 							<h3>How to track processed RSC in Productivity tracker (RSC)</h3>
 								<img src="Images/howtotrackRSC.PNG"><br><br>
 		<!---	DO NOT SHOW <li><h2>Verzendbevestiging</h2></li>
@@ -878,15 +878,15 @@
 										<img src="Images/rsbquantity.PNG"><br><br>
 									<i>e.g.</i><br>
 										<img src="Images/rsbmemo.PNG"><br><br>
-								<li>Check our <span style="color:RED;">ETD</span> from the sales order document [3- ].</li>
+								<li>Check our <span style="color:RED;">Sales Del.date</span> from the sales order document [3- ].</li>
 									You can access it either from <i><span style="color:RED;">Order</span></i> or </i><i><span style="color:RED;">Order lines</span></i> tab<br><br>
 										Order tab:<br><br>
 											<img src="Images/rsbordertab.PNG"><br><br>
 										Order lines tab:<br><br>
 											<img src="Images/rsborderlinestab.PNG"><br>
-											<span style="color:RED;">ETD</span> can be found under <span style="color:RED;">Order data</span> subtab of the <span style="color:RED;">Order header</span> tab.<br><BR>
+											<span style="color:RED;">Sales Del.date</span> can be found under <span style="color:RED;">Order data</span> subtab of the <span style="color:RED;">Order header</span> tab.<br><BR>
 											<img src="Images/rsborderdataetd.PNG"><br><br>
-										If <span style="color:RED;"><I>Nieuwe afleverdatum</I></span> is the same or later than our ETD, inform purchasing department via email.
+										If <span style="color:RED;"><I>Nieuwe afleverdatum</I></span> is the same or later than our Sales Del.date, inform purchasing department via email.
 							</ol>
 						</div>	UNTIL FURTHER ADVISE--->
 		</div>			
@@ -906,3 +906,4 @@ example - > const list = document.querySelectorAll("h2, P"); -->
 
 </body>
 </html>
+
