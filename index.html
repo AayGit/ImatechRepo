@@ -1677,6 +1677,7 @@
 														<span style="color:RED;">IMPORTANT REMINDER: </span>Knutsen customer is leaving Incentra but this is an exemption, the condition in the <span style="color:RED;">DISCOUNT</span> is still applicable, however the new percentage is not applicable with them. Memo: 2% discount (if 75% or more imatech number). <BR><BR>
 															<span style="color:RED;">Note</span>: Mention "<span style="color:RED;">2% discount knutsen</span>" in the memo when we need to add the additional 2% discount instead of the usual "2% discount" for Incentra customers. <br> <br>
 													<li>RS Catalog</li>
+														<span style="color:RED;">NOTE: Ignore RS articles which turns red (Sales will check these items, might be duplicates)</span>
 														When processing RS catalog item/s it is recommended to use the <span style="color:RED;">Auto Select External Article Function</span>.<br>
 														If in case there is no autopopulated article/description by using the function, then you can check it using <span style="color:RED;">CTRL+E</span> function.<br>
 														<ol class="overall-text-list">
@@ -1687,11 +1688,20 @@
 													<img src="Images/rscatautoselect.PNG"><br><br>
 													<span style="color:RED;">IMPORTANT REMINDER:</span> If catalog number/s was/were specified as RS Catalog but there's no equivalent item in 7T then <span style="color:RED;">DO NOT</span> remove RS as supplier under SUPPLIER column, otherwise, you can remove the RS as Supplier.
 													<li>IMPA Catalog</li>
-														<ul>ONLY convert IMPA catalogs that starts with <span style="color:red;">79</span>.
+														<ul>ONLY convert IMPA catalogs that starts with <span style="color:red;">79 & 77</span>.
 															<ol class="overall-text-list">
-																Do not convert catalog number if:
-																<ul><li>item is <span style="color:red;">cable</span></li></ul>
-																<ul><li>customer is MSC and item is <span style="color:red;">battery</span></li></ul>
+																<li>FOR 79 Catalog numbers</li>
+																	<span style="color:RED;">NOTE: </span> Convert IMPA to Imatech numbers (ONLY for MSC - exceptions remain the same) selecting the cheapest option (items with price amount of zero will automatically be eliminated in the options)
+																		<ol class="overall-text-list">
+																			Do not convert catalog number if:
+																			<ul><li>item is <span style="color:red;">cable</span></li></ul>
+																			<ul><li>customer is MSC and item is <span style="color:red;">battery or circuit breaker</span></li></ul>
+																		</ol>
+																<li>FOR 77 Catalog numbers</li>
+																	<span style="color:RED;">NOTE: </span> FOR ALL CUSTOMERS
+																		These catalog numbers are for <span style="color:red;">ball bearing</span> and will now be converted in 7t.<br>
+																		Make sure to enter catalog number under <span style="color:RED;">Cat no.</span> column as well.
+																
 															</ol>
 													<li>KERGER Catalog</li>
 														<ul>If the request contains Kerger Catalog numbers then an IO [<span style="color:red;">Kerger & Co BV</span>] should be added to indicate the catalog name. </ul><br>
@@ -1925,5 +1935,6 @@ example - > const list = document.querySelectorAll("h2, P"); -->
 </script>
 </body>
 </html>
+
 
 
