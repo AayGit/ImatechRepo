@@ -721,6 +721,9 @@
 									<li><span style="color:GREEN;">Prio 1</span> – <i>4hr</i></li>
 									<li><span style="color:GREEN;">Prio 2</span> – <i>24hrs</i></li>
 									<li><span style="color:GREEN;">TBD </span> – <i>24hrs</i></li>
+										NOTE: <br>
+									For Shipserv Customer - When request is NOT yet available in 7T import, just flag the email w/ category but monitor until 12hrs(P2/TBD) and 4hrs(P1). Proceed to manual creation of the request.
+									For B2B Customer - When request is <span style="color:RED;">NOT yet available in portal</span>, just flag the email w/ category but <span style="color:RED;">monitor until 24hrs</span>. After 24hrs and RFQ reference is <span style="color:RED;">still NOT available</span> you can create a <span style="color:RED;">HEADER</span> and put this now to <span style="color:RED;">Rejected (imatech)</span><br><br>
 								</ol>	
 							<li><h2>Shortcut Keys:</h2></li>
 								<ol class="overall-text-list">
@@ -1146,8 +1149,7 @@
 										<ul>See below sample: It should be added under the same line with the IO but separated by a space</ul><br>
 											<img src="Images/frequency2.PNG"><br>
 											<img src="Images/frequency3.PNG"><br><br>
-									<li><h3><span style="color:BLACK;">B2B Customer</span></h3></li>
-									<span style="color:RED;">REMINDER</span>: When request is <span style="color:RED;">NOT yet available in portal</span>, just flag the email w/ category but <span style="color:RED;">monitor until 48hrs</span>. After 48hrs and RFQ reference is <span style="color:RED;">still NOT available</span> you can create a <span style="color:RED;">HEADER</span> and put this now to <span style="color:RED;">Rejected (imatech)</span><br><br>
+									<li><h3><span style="color:BLACK;">B2B Customer</span></h3></li>									
 										<ul>Moving forward, we have to <span style="color:RED;">counter check</span> the total line item/s in the downloaded <span style="color:RED;">RFQ PDF</span> vs. the <span style="color:RED;">line item in the system</span>.</ul>
 											<ol class="overall-text-list">
 												<ul><li>We can use as hint if the downloaded pdf has a <span style="color:RED;">missing number </span>in the sequence. (see example)</li></ul>
@@ -1938,6 +1940,7 @@ example - > const list = document.querySelectorAll("h2, P"); -->
 </script>
 </body>
 </html>
+
 
 
 
