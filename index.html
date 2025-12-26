@@ -591,15 +591,20 @@
 								</ol>																
 							</li>
 						</ol>
-						<h3><span style="color:BLACK;">How to track processed RFQ in Productivity tracker (010/007)</span></h3><br>
-							<ol>
-								<ul>Processed from <span style="color:GREEN;">Prio folders (Prio Now, 1, & 2)</span></ul><br>
-								<span style="color:RED;">Reminder:</span> Count in tracker should be referred from the count in lines tab of 7t.<br>
-								AI(more than 10), adding vessel and contact persons <span style="color:RED;">SHOULD NOT</span> be included in the count of line items to be tracked. You can choose to idle them.<br>
-									<img src="Images/howtotrackrfq.PNG"><br><br>
-								<ul>Processed from <span style="color:GREEN;">TBD folders</span></ul><br>
-								Reminder: Count in tracker should always be 1 as only header was created. Same If NL advised to reject a 100+ line items: 1 count only (header)<br>
-									<img src="Images/howtotrackTBD.PNG"><br>
+						<h3><span style="color:BLACK;">HANDLING DIFFERENT RFQ SCENARIO</span></h3><br>
+							<ol type="A" class="overall-text-list">
+									<li><span style="color:BLACK;">RFQ without Reference but with multiple vessel</span></li>
+										-Process this in 1 SQ <br>
+										-Do not enter any vessel name <br>
+										-Put memo "Required for multiple vessel (name of the vessels) <br>
+										-Adjust the Quantity of the request depends on the given vessels <br><br>
+									<li><span style="color:BLACK;">RFQ without vessel but with multiple Reference (mentioned in the body of email, pdf, excel, etc.)</span></li>
+										-Process this in separate SQs<br><br>
+									<li><span style="color:BLACK;">RFQ with multiple reference, multiple vessels, multiple attachments</span></li>
+										-Process this in separate SQ<br><br>
+									<li><span style="color:BLACK;">RFQ with multiple reference and multiple vessel under 1 attachment or email(<i>e.g. Seagems customer former Sapura</i>)</span></li>
+										-Process this in 1 SQ (header only)<br>
+										-Put memo "Please advise if to process as 1 request or per vessel"<BR>
 							</ol>
 					</div>
 			<hr></div>
@@ -1980,6 +1985,7 @@ example - > const list = document.querySelectorAll("h2, P"); -->
 </script>
 </body>
 </html>
+
 
 
 
