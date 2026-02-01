@@ -26,7 +26,7 @@ body
 .menu-bar
 {
     background: #858585;    
-    text-align: center;
+    text-align: left;
     position: fixed;
 }
 .menu-bar a:hover
@@ -583,6 +583,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
