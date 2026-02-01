@@ -43,7 +43,7 @@ body
 }
 .menu-bar ul li
 {
-    width: 10px;
+    width: 120px;
     margin: 15px;
     padding: 15px;
 }
@@ -583,6 +583,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
