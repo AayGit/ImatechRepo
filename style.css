@@ -6,13 +6,13 @@
 
 .container-logo
 {
-    margin-right: 1px;
+    margin-right: 10px;
     margin-left: 300px;
 }
 .logo
 {
     margin-top: 10px;
-    width: 200px;
+    width: 300px;
 }
 body  
 {
@@ -583,6 +583,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
