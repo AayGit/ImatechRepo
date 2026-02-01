@@ -7,7 +7,7 @@
 .container-logo
 {
     margin-right: 100px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .logo
 {
@@ -583,6 +583,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
