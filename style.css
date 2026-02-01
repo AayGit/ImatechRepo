@@ -27,7 +27,8 @@ body
 {
     background: #858585;    
     text-align: left;
-    position: 10px;
+    position: fixed;
+    margin: 1px;
 }
 .menu-bar a:hover
 {
@@ -583,6 +584,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
