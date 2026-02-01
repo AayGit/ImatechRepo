@@ -6,7 +6,7 @@
 
 .container-logo
 {
-    margin-right: 3000px;
+    margin-right: 100px;
     margin-left: 0px;
 }
 .logo
@@ -28,6 +28,7 @@ body
     background: #858585;    
     text-align: left;
     position: fixed;
+    margin-right: 1000px;
 }
 .menu-bar a:hover
 {
@@ -583,6 +584,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
