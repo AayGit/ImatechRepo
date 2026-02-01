@@ -28,7 +28,6 @@ body
     background: #858585;    
     text-align: left;
     position: fixed;
-    margin-right: 0px;
 }
 .menu-bar a:hover
 {
@@ -40,7 +39,7 @@ body
     display: inline-flex;
     list-style: none;
     color: #fff;
-    margin-right: 800px;
+    margin-right: 80000px;
 }
 .menu-bar ul li
 {
@@ -584,6 +583,7 @@ input {
 {
     color: #fff
 }
+
 
 
 
