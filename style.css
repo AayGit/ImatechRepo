@@ -44,7 +44,7 @@ body
 .menu-bar ul li
 {
     width: 120px;
-    margin: 10px;
+    margin: 1px;
     padding: 15px;
 }
 .menu-bar ul li a
@@ -583,4 +583,5 @@ input {
 {
     color: #fff
 }
+
 
