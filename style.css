@@ -39,12 +39,12 @@ body
     display: inline-flex;
     list-style: none;
     color: #fff;
-    margin-right: 800px;
+    margin-right: 8px;
 }
 .menu-bar ul li
 {
     width: 120px;
-    margin: 1px;
+    margin: 15px;
     padding: 15px;
 }
 .menu-bar ul li a
@@ -583,5 +583,6 @@ input {
 {
     color: #fff
 }
+
 
 
