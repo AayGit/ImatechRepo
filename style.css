@@ -6,8 +6,8 @@
 
 .container-logo
 {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 100px;
+    margin-left: 300px;
 }
 .logo
 {
@@ -26,7 +26,7 @@ body
 .menu-bar
 {
     background: #858585;    
-    text-align: left;
+    text-align: center;
     position: fixed;
 }
 .menu-bar a:hover
@@ -44,8 +44,8 @@ body
 .menu-bar ul li
 {
     width: 120px;
-    margin: 5px;
-    padding: 5px;
+    margin: 15px;
+    padding: 15px;
 }
 .menu-bar ul li a
 {
@@ -188,7 +188,7 @@ body
 {
     width: 200px;
     margin: auto;
-    text-align: left;   
+    text-align: left;  
 
 }
 
@@ -253,15 +253,12 @@ body
 }
 .mnlteam-list
 {
-    text-align: center;  
+    width: 200px;
+    margin: auto;
+    text-align: left;  
 
 }
-.tablemnl
-{
-    display: flex;
-    aligh-items: center;
-    justify-content: center;
-}
+
 /*----Workflow-----*/
 *
 {
@@ -583,37 +580,3 @@ input {
 {
     color: #fff
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
